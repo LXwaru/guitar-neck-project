@@ -45,6 +45,7 @@ const GuitarNeckTriads = () => {
                     <div className="note-D-6"></div>
                     <div className="note-D-5"></div>
                     <div className="note-D-4"></div>
+                    <div className="note-highD-4"></div>
                     <div className="note-D-3"></div>
                     <div className="note-D-2"></div>
                     <div className="note-D-1"></div>
@@ -65,11 +66,13 @@ const GuitarNeckTriads = () => {
             return (
                 <>
                     <div className="note-E-6"></div>
+                    <div className="note-highE-6"></div>
                     <div className="note-E-5"></div>
                     <div className="note-E-4"></div>
                     <div className="note-E-3"></div>
                     <div className="note-E-2"></div>
                     <div className="note-E-1"></div>
+                    <div className="note-highE-1"></div>
                 </>
             )
         } else if (newSelectedRoot === '5') {
@@ -101,6 +104,7 @@ const GuitarNeckTriads = () => {
                     <div className="note-G-5"></div>
                     <div className="note-G-4"></div>
                     <div className="note-G-3"></div>
+                    <div className="note-highG-3"></div>
                     <div className="note-G-2"></div>
                     <div className="note-G-1"></div>
                 </>
@@ -121,6 +125,7 @@ const GuitarNeckTriads = () => {
                 <>
                     <div className="note-A-6"></div>
                     <div className="note-A-5"></div>
+                    <div className="note-highA-5"></div>
                     <div className="note-A-4"></div>
                     <div className="note-A-3"></div>
                     <div className="note-A-2"></div>
@@ -146,6 +151,7 @@ const GuitarNeckTriads = () => {
                     <div className="note-B-4"></div>
                     <div className="note-B-3"></div>
                     <div className="note-B-2"></div>
+                    <div className="note-highB-2"></div>
                     <div className="note-B-1"></div>
                 </>
             )
