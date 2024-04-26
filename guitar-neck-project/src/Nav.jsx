@@ -9,6 +9,7 @@ const Nav = () => {
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/GuitarNeckNotes">Guitar Neck - Notes</NavLink>
                 <NavLink to="/GuitarNeckIntervals">Guitar Neck - Intervals</NavLink>
+                <NavLink to="/GuitarNeckTriads">Guitar Neck - Triads</NavLink>
             </div>
             <hr />
         </>

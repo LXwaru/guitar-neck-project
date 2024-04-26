@@ -6,6 +6,7 @@ import About from './About'
 import Footer from './Footer'
 import GuitarNeckNotes from './GuitarNeckNotes'  
 import GuitarNeckIntervals from './GuitarNeckIntervals'
+import GuitarNeckTriads from './GuitarNeckTriads'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/GuitarNeckNotes" element={<GuitarNeckNotes />} />
           <Route path="/GuitarNeckIntervals" element={<GuitarNeckIntervals />} />
+          <Route path="/GuitarNeckTriads" element={<GuitarNeckTriads />} />
         </Routes>
       </div>
       <Footer />
