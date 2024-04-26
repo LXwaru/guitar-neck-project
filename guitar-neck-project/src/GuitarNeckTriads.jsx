@@ -329,6 +329,7 @@ const GuitarNeckTriads = () => {
 
     return(
         <>
+            <h1>Guitar Neck - Triads</h1>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>
                 <option value="0">C</option>

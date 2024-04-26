@@ -326,6 +326,7 @@ const GuitarNeckIntervals = () => {
 
     return(
         <>
+            <h1>Guitar Neck - Intervals</h1>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>
                 <option value="0">C</option>

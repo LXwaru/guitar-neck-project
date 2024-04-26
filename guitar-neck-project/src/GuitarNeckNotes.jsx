@@ -155,10 +155,11 @@ const GuitarNeckNotes = () => {
             } else {
                 return null;
             }
-        }
+    }
 
-            return (
-                <>
+    return (
+        <>
+            <h1>Guitar Neck - Notes</h1>
             <select onChange={handleNoteChange}>
                 <option value="default">Select a note</option>
                 <option value="0">C</option>
