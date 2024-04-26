@@ -9,6 +9,7 @@ const Footer = () => {
                 <div className="footer-flex">
                     <Link to="/" exact="true">Home</Link>
                     <Link to="/about">About</Link>
+                    <Link to="/guitar-neck">Guitar Neck</Link>
                 </div>
             </div>
         </>
