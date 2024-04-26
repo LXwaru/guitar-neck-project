@@ -177,7 +177,6 @@ const GuitarNeckTriads = () => {
             }
         })
         console.log(root, cleanTriad)
-        if (newSelectedTriad === 'dim') {
             return (
                 <>
                     {cleanTriad.map((note) => {
@@ -324,7 +323,7 @@ const GuitarNeckTriads = () => {
                     },)}
                 </>
             )
-        }
+
     }
 
 

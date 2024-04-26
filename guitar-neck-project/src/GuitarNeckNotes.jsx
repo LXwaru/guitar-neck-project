@@ -51,7 +51,7 @@ const GuitarNeckNotes = () => {
             } else if (selectedNote === '3') {
                 return (
                     <>    
-                    <div className="note-Gs-Ab-6"></div>
+                    <div className="note-Ds-Eb-6"></div>
                     <div className="note-Ds-Eb-5"></div>
                     <div className="note-Ds-Eb-4"></div>
                     <div className="note-Ds-Eb-3"></div>
@@ -156,7 +156,7 @@ const GuitarNeckNotes = () => {
                 return null;
             }
         }
-        
+
             return (
                 <>
             <select onChange={handleNoteChange}>
