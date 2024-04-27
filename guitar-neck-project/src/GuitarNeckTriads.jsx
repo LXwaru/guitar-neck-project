@@ -361,16 +361,16 @@ const GuitarNeckTriads = () => {
             <div className="neck-grid">
                 <div className="fret-1"></div>
                 <div className="fret-2"></div>
-                <div className="fret-3"><strong>O</strong></div>
+                <div className="fret-3"></div>
                 <div className="fret-4"></div>
-                <div className="fret-5"><strong>O</strong></div>
+                <div className="fret-5"></div>
                 <div className="fret-6"></div>
-                <div className="fret-7"><strong>O</strong></div>
+                <div className="fret-7"></div>
                 <div className="fret-8"></div>
-                <div className="fret-9"><strong>O</strong></div>
+                <div className="fret-9"></div>
                 <div className="fret-10"></div>
                 <div className="fret-11"></div>
-                <div className="fret-12"><strong>O\\O</strong></div>
+                <div className="fret-12"></div>
                 <div className="fret-13"></div>
                 <div className="fret-14"></div>
                 <div className="nut"></div>
@@ -380,6 +380,24 @@ const GuitarNeckTriads = () => {
                 <div className="string-3"></div>
                 <div className="string-2"></div>
                 <div className="string-1"></div>
+                <div className="diamond-inlay-1">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
+                <div className="diamond-inlay-2">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
+                <div className="diamond-inlay-3">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
+                <div className="diamond-inlay-4">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
+                <div className="diamond-inlay-5">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
+                <div className="diamond-inlay-6">
+                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                </div>
                 {handleRootLighter(selectedRoot)}
                 {handleTriadLighter(selectedRoot, selectedTriad)}
             </div>

@@ -5,11 +5,10 @@ const Footer = () => {
         <>
             <div className="footer">
                 <hr />
-                <p>this is a footer</p>
                 <div className="footer-flex">
-                    <Link to="/" exact="true">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/guitar-neck">Guitar Neck</Link>
+                    <Link to="/GuitarNeckNotes">Notes</Link>
+                    <Link to="/GuitarNeckIntervals">Intervals</Link>
+                    <Link to="/GuitarNeckTriads">Triads</Link>
                 </div>
             </div>
         </>
