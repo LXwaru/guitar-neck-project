@@ -1,8 +1,27 @@
-# React + Vite
+# TO RUN THIS APP FROM A GIT REPO:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-in the terminal, type:
+`https://github.com/LXwaru/guitar-neck-project.git`
 
-Currently, two official plugins are available:
+`cd guitar-neck-project`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`code .`
+
+`npm run dev`
+
+-in the browser, navigate to:
+http://localhost:5173
+
+# TO USE THIS APP
+
+## [Guitar Neck - Notes](http://localhost:5173/GuitarNeckNotes)
+
+• select a pitch from the drop down menu and all the instances of that pitch on the guitar neck will light up in red.
+
+## [Guitar Neck - Intervals](http://localhost:5173/GuitarNeckIntervals)
+
+• select a pitch from the left drop down menu, then select an interval from the right drop down menu. and all the instances of that root pitch will light up in red, and the instances of the interval from the root will light up in blue.
+
+## [Guitar Neck - Intervals](http://localhost:5173/GuitarNeckTriads)
+
+• select a pitch from the left drop down menu, then select a triad sonority from the right drop down menu. and all the instances of that root pitch will light up in red, and the instances of the chord tones will light up in blue.
