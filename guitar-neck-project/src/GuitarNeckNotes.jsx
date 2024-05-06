@@ -156,7 +156,7 @@ const GuitarNeckNotes = () => {
         <>
             <div className="container">
                 <h1>Guitar Neck - Notes</h1>
-                <p>When you select a note, each instance of that note becomes highlighted in red.</p>
+                <p>Select a pitch from the drop down menu and all the instances of that pitch on the guitar neck will light up in red..</p>
             </div>
             <select onChange={handleNoteChange}>
                 <option value="default">Select a note</option>

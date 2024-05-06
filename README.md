@@ -1,11 +1,11 @@
 # TO RUN THIS APP FROM A GIT REPO:
 
 -in the terminal, type:
-`https://github.com/LXwaru/guitar-neck-project.git`
+`git clone https://github.com/LXwaru/guitar-neck-project.git`
 
 `cd guitar-neck-project`
 
-`code .`
+
 
 `npm run dev`
 

@@ -327,8 +327,7 @@ const GuitarNeckIntervals = () => {
     return(
         <>
             <div className="container"><h1>Guitar Neck - Intervals</h1>
-                <p>When you select a root, each instance of that root becomes highlighted in red.</p>
-                <p>When you select an interval, the interval above the selected root becomes highlighted in blue</p>
+                <p>Select a pitch from the left drop down menu, then select an interval from the right drop down menu. and all the instances of that root pitch will light up in red, and the instances of the interval from the root will light up in blue.</p>
             </div>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>

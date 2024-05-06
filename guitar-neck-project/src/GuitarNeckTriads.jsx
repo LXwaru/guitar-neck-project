@@ -338,8 +338,7 @@ const GuitarNeckTriads = () => {
             <div className="container">
             <h1>Guitar Neck - Triads</h1>
 
-                <p>When you select a root, each instance of that root becomes highlighted in red.</p>
-                <p>When you select an triad, each chord tone of the triad, above the selected root becomes highlighted in blue</p>
+                <p>Select a pitch from the left drop down menu, then select a triad sonority from the right drop down menu. and all the instances of that root pitch will light up in red, and the instances of the chord tones will light up in blue.</p>
             </div>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>
