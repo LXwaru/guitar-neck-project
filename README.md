@@ -3,10 +3,16 @@
 -in the terminal, type:
 `git clone https://github.com/LXwaru/guitar-neck-project.git`
 
+-cd into the application folder:
 `cd guitar-neck-project`
 
+-cd into the project:
+`cd guitar-neck-project`
+
+-install dependencies:
 `npm i`
 
+-run localhost
 `npm run dev`
 
 
