@@ -12,7 +12,9 @@
 -in the browser, navigate to:
 http://localhost:5173
 
-# TO USE THIS APP
+# TO USE THIS APP, CLICK ON THE LINKS BELOW
+
+## [Landing Page](http://localhost:5173)
 
 ## [Guitar Neck - Notes](http://localhost:5173/GuitarNeckNotes)
 
