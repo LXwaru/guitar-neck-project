@@ -1141,3 +1141,12 @@
   z-index: -1;
 }
 
+.container {
+  
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.203);
+  margin: 20px;
+  text-align: center;
+  background-color: #233bf446;
+}

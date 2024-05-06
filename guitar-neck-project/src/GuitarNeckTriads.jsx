@@ -8,12 +8,12 @@ const GuitarNeckTriads = () => {
 
     const handleRootChange = (e) => {
         setSelectedRoot(e.target.value);
-        console.log(e.target.value)
+
     }
 
     const handleTriadChange = (e) => {
         setSelectedTriad(e.target.value);
-        console.log(e.target.value)
+
     }
 
     const handleRootLighter = (newSelectedRoot) => {
@@ -182,7 +182,7 @@ const GuitarNeckTriads = () => {
                 return note;
             }
         })
-        console.log(root, cleanTriad)
+
             return (
                 <>
                     {cleanTriad.map((note) => {
@@ -335,7 +335,12 @@ const GuitarNeckTriads = () => {
 
     return(
         <>
+            <div className="container">
             <h1>Guitar Neck - Triads</h1>
+
+                <p>When you select a root, each instance of that root becomes highlighted in red.</p>
+                <p>When you select an triad, each chord tone of the triad, above the selected root becomes highlighted in blue</p>
+            </div>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>
                 <option value="0">C</option>
@@ -351,7 +356,7 @@ const GuitarNeckTriads = () => {
                 <option value="10">A# / Bb</option>
                 <option value="11">B</option>
             </select>
-            <select onChange={handleTriadChange}>
+            <select onChange={handleTriadChange} key ="triad">
                 <option value="default">Select Triad</option>
                 <option value="dim">dim, º, diminished</option>
                 <option value="m">min, m, minor</option>
@@ -381,22 +386,22 @@ const GuitarNeckTriads = () => {
                 <div className="string-2"></div>
                 <div className="string-1"></div>
                 <div className="diamond-inlay-1">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-2">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-3">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-4">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-5">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-6">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 {handleRootLighter(selectedRoot)}
                 {handleTriadLighter(selectedRoot, selectedTriad)}

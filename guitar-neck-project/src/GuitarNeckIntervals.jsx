@@ -7,17 +7,17 @@ const GuitarNeckIntervals = () => {
 
     const handleRootChange = (e) => {
         setSelectedRoot(e.target.value);
-        console.log(e.target.value)
+
     }
     
     const handleTargetChange = (e) => {
         setSelectedTarget(e.target.value);
-        console.log(e.target.value)
+
     }
 
     const handleRootLighter = (newSelectedRoot) => {
         if (newSelectedRoot === '0') {
-            console.log('C')
+
             return (
                 <>    
                     <div className="note-C-6"></div>
@@ -29,7 +29,7 @@ const GuitarNeckIntervals = () => {
                 </>
             )
         } else if (newSelectedRoot === '1') {
-            console.log('C# / Db') 
+
             return (
                 <>    
                     <div className="note-Cs-Db-6"></div>
@@ -181,7 +181,7 @@ const GuitarNeckIntervals = () => {
         if (target > 11) {
             target = root + intervals[newSelectedTarget] - 12;
         }
-        console.log(target)
+
         if (target === 0) {
             return (
                 <>    
@@ -326,7 +326,10 @@ const GuitarNeckIntervals = () => {
 
     return(
         <>
-            <h1>Guitar Neck - Intervals</h1>
+            <div className="container"><h1>Guitar Neck - Intervals</h1>
+                <p>When you select a root, each instance of that root becomes highlighted in red.</p>
+                <p>When you select an interval, the interval above the selected root becomes highlighted in blue</p>
+            </div>
             <select onChange={handleRootChange}>
                 <option value="default">Select Root</option>
                 <option value="0">C</option>
@@ -380,22 +383,22 @@ const GuitarNeckIntervals = () => {
                 <div className="string-2"></div>
                 <div className="string-1"></div>
                 <div className="diamond-inlay-1">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-2">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-3">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-4">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-5">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 <div className="diamond-inlay-6">
-                    <img src="public/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
+                    <img src="/diamond-inlay.png" alt="diamond inlay" width="30px" height="auto" />
                 </div>
                 {handleRootLighter(selectedRoot)}
                 {handleTargetLighter(selectedRoot, selectedTarget)}
