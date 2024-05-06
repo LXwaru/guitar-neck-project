@@ -5,16 +5,15 @@
 
 `cd guitar-neck-project`
 
-
+`npm i`
 
 `npm run dev`
 
--in the browser, navigate to:
-http://localhost:5173
 
 # TO USE THIS APP, CLICK ON THE LINKS BELOW
 
 ## [Landing Page](http://localhost:5173)
+•  a simple landing page for the application
 
 ## [Guitar Neck - Notes](http://localhost:5173/GuitarNeckNotes)
 
